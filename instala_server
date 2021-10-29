@@ -89,7 +89,7 @@ wget -O /var/www/html/scripts/Plus https://raw.githubusercontent.com/RPVIP/geram
 wget -O /var/www/html/script/versao https://raw.githubusercontent.com/RPVIP/gerame/main/versao > /dev/null 2>&1
 wget -O /home/index.html https://raw.githubusercontent.com/RPVIP/gerame/main/index.html > /dev/null 2>&1
 wget -O /home/list https://raw.githubusercontent.com/RPVIP/gerame/main/list > /dev/null 2>&1
-wget -O /bin/keyssh https://raw.githubusercontent.com/RPVIP/sshplus/main/keyssh > /dev/null 2>&1
+wget -O /bin/keyssh https://raw.githubusercontent.com/RPVIP/gerame/main/keyssh > /dev/null 2>&1
 wget -O /bin/otimizar https://raw.githubusercontent.com/RPVIP/gerame/main/otimizar > /dev/null 2>&1
 echo -e "\033[1;33mPERMISOS ARQUIVOS............ \033[1;32mAGUARDE"
     chmod +x  /var/www/html/Plus > /dev/null 2>&1
