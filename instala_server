@@ -109,7 +109,7 @@ fun_ip
 sed -i "s;SEU-IP-AKI;$IP;g" /home/index.html > /dev/null 2>&1
 sleep 3s
 
-echo -e "\033[1;33mFINALIZANDO CONFIGURACION.... \033[1;32mAGUARDE"
+echo -e "\033[1;33mFINALIZANDO CONFIGURAÇÃO.... \033[1;32mAGUARDE"
 cat /home/index.html >/var/www/html/script/index.html
 cat /home/index.html >/var/www/html/scripts/index.html
 cat /home/index.html >/var/www/html/_script_$/index.html
