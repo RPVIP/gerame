@@ -2,7 +2,7 @@
 #====================================================
 #	@kiritosshxd
 #====================================================
-_lvk=$(wget -qO- script.megassh.ml/script/versao)
+_lvk=$(wget -qO- 150.230.78.132/script/versao)
 IP=$(wget -qO- ipv4.icanhazip.com)
 IP2=$(wget -qO- http://whatismyip.akamai.com/)
 [[ "$IP" != "$IP2" ]] && ipdovps="$IP2" || ipdovps="$IP"
